@@ -1,0 +1,6 @@
+*.pyc
+.cache
+.coverage
+.idea/
+*.iml
+venv/
