@@ -15,7 +15,7 @@ the moment I saw how to.
 This was not optimal, because although the change was easy, it was not simple,
 as I had to make the change in two places.
 
-On the other hand, that might bee the "correct" way of doing it...
+On the other hand, that might be the "correct" way of doing it...
 I wrote the test, found an easy way to make it pass, then refactored.
 
 ### Most used refactoring techniques:
