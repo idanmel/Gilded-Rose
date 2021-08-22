@@ -34,7 +34,7 @@ I think the refactoring I came up with is pretty good.
 3. Clear
 4. If I had another item type to add, there would probably be one place to change
 
-### What I don't like about my solution
+### Things to improve
 I feel uneasy about all the mutating state.
 Half the functions I wrote return None, which smells weird.
 Not sure how to refactor the data to be immutable.
@@ -42,6 +42,8 @@ Not sure how to refactor the data to be immutable.
 I also think I could have used some class system, where each item type
 has it's own function to calculate quality. 
 I didn't see a way to do it without breaking the Item class, which was not allowed to change.
+
+I could add tests for edge cases for backstage passes for example.
 
 ### A question for the reader:
 What's more readable to you?
