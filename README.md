@@ -1,7 +1,19 @@
 # Gilded Rose Kata
 Taken from [Emily Bache](https://github.com/emilybache/GildedRose-Refactoring-Kata).
 
+
+## Update
+After watching [All the little things](https://www.youtube.com/watch?v=8bZh5LMaSmE)
+I kept thinking of a way to use classes in my refactoring.
+Turns out that by getting a function to calculate the normal quality change made the the gilded rose much more readable.
+When looking at "do_update_quality" on gilded_rose2.py I can now quickly
+understand that Aged Brie increases in quality, and that Conjured items decrease twice as fast.  
+
+I think at this point introducing classes is not necessary.
+
+
 ## Retrospective
+For first version as seen on gilded_rose.py
 
 ### Thoughts effected me while doing the kata
 1. I'm not smart enough for this.
