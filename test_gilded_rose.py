@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 
-from gilded_rose import Item, GildedRose
+from gilded_rose2 import Item, GildedRose
 
 
 class GildedRoseTest(unittest.TestCase):
@@ -40,7 +40,7 @@ class GildedRoseTest(unittest.TestCase):
         self.assertEqual(3, items[0].sell_in)
         self.assertEqual(50, items[0].quality)
 
-    def test_sulfuras_sell_in_and_quality_stays_the_same(self):
+    def test_sulfuras_quality_stays_the_same(self):
         items = [Item(name="Sulfuras, Hand of Ragnaros", sell_in=-1, quality=80)]
         gilded_rose = GildedRose(items)
         gilded_rose.update_quality()
